@@ -1,0 +1,267 @@
+2025-03-12 17:07:54,893 - lsm - ERROR - Failed to fetch all books: fetchall_books method is not implemented.
+2025-03-12 17:11:52,789 - lsm - ERROR - Failed to fetch all books: fetchall_books method is not implemented.
+2025-03-12 17:32:41,553 - lsm - ERROR - Failed to fetch all books: fetchall_books method is not implemented.
+2025-03-12 17:33:09,100 - lsm - ERROR - Failed to add book: add_book method is not implemented.
+2025-03-12 17:33:27,831 - lsm - ERROR - Failed to fetch all books: fetchall_books method is not implemented.
+2025-03-12 17:33:40,381 - lsm - ERROR - Failed to add book: add_book method is not implemented.
+2025-03-12 17:35:54,078 - lsm - ERROR - Failed to fetch all books: fetchall_books method is not implemented.
+2025-03-12 17:43:18,961 - lsm - ERROR - Failed to fetch all books: fetchall_books method is not implemented.
+2025-03-12 18:42:26,059 - lsm - ERROR - Failed to fetch all books: Error fetching results: relation "books" does not exist
+LINE 2:         SELECT * FROM books
+                              ^
+
+2025-03-12 18:46:04,411 - lsm - DEBUG - 'QueryController' object has no attribute 'find_books_by_author'
+2025-03-12 18:46:39,515 - lsm - DEBUG - 'QueryController' object has no attribute 'find_books_by_author'
+2025-03-12 18:47:08,391 - lsm - DEBUG - 'QueryController' object has no attribute 'find_books_by_author'
+2025-03-12 18:47:13,982 - lsm - ERROR - Failed to fetch members: Error fetching results: relation "members" does not exist
+LINE 2:         SELECT * FROM members
+                              ^
+
+2025-03-12 18:50:10,644 - lsm - ERROR - Failed to fetch publishers: Error fetching results: relation "publishers" does not exist
+LINE 2:         SELECT * FROM publishers
+                              ^
+
+2025-03-12 18:50:10,861 - lsm - ERROR - Failed to fetch publishers: Error fetching results: connection already closed
+2025-03-12 18:50:15,570 - lsm - ERROR - Failed to fetch members: Error fetching results: connection already closed
+2025-03-12 18:50:28,090 - lsm - ERROR - Failed to fetch book 'The moby dick': Error fetching results: connection already closed
+2025-03-12 18:50:28,091 - lsm - WARNING - No book found with title 'The moby dick'.
+2025-03-12 18:50:35,479 - lsm - DEBUG - 'QueryController' object has no attribute 'get_members_with_loans'
+2025-03-13 14:19:49,854 - lsm - ERROR - Failed to fetch book 'The Great Gatsby': not all arguments converted during string formatting
+2025-03-13 14:19:49,857 - lsm - WARNING - No book found with title 'The Great Gatsby'.
+2025-03-13 14:27:58,810 - lsm - INFO - Book 'Greg' added successfully.
+2025-03-13 14:27:58,813 - lsm - INFO - Book 'Greg' added successfully.
+2025-03-13 14:28:16,813 - lsm - ERROR - Failed to update book with ID 11: Error executing query: column "id" does not exist
+LINE 4:         WHERE id=11
+                      ^
+
+2025-03-13 14:28:16,820 - lsm - ERROR - Failed to update book with ID 11: Failed to update book.
+2025-03-13 14:28:16,821 - lsm - ERROR - Failed to update book 11: Failed to update book.
+2025-03-13 14:28:30,096 - lsm - ERROR - Failed to delete book with ID 11: Error executing query: connection already closed
+2025-03-13 14:28:30,099 - lsm - ERROR - Failed to delete book with ID 11: Failed to delete book.
+2025-03-13 14:28:30,100 - lsm - ERROR - Failed to delete book 11: Failed to delete book.
+2025-03-13 14:28:46,364 - lsm - ERROR - Failed to delete book with ID 11: Error executing query: connection already closed
+2025-03-13 14:28:46,367 - lsm - ERROR - Failed to delete book with ID 11: Failed to delete book.
+2025-03-13 14:28:46,369 - lsm - ERROR - Failed to delete book 11: Failed to delete book.
+2025-03-13 14:30:05,904 - lsm - ERROR - Failed to delete book with ID 11: Error executing query: connection already closed
+2025-03-13 14:30:05,906 - lsm - ERROR - Failed to delete book with ID 11: Failed to delete book.
+2025-03-13 14:30:05,907 - lsm - ERROR - Failed to delete book 11: Failed to delete book.
+2025-03-13 14:30:20,491 - lsm - ERROR - Failed to update book with ID 11: Error executing query: connection already closed
+2025-03-13 14:30:20,493 - lsm - ERROR - Failed to update book with ID 11: Failed to update book.
+2025-03-13 14:30:20,493 - lsm - ERROR - Failed to update book 11: Failed to update book.
+2025-03-13 14:30:27,799 - lsm - ERROR - Failed to update book with ID 11: Error executing query: connection already closed
+2025-03-13 14:30:27,801 - lsm - ERROR - Failed to update book with ID 11: Failed to update book.
+2025-03-13 14:30:27,801 - lsm - ERROR - Failed to update book 11: Failed to update book.
+2025-03-13 14:30:33,344 - lsm - ERROR - Failed to update book with ID 11: Error executing query: connection already closed
+2025-03-13 14:30:33,348 - lsm - ERROR - Failed to update book with ID 11: Failed to update book.
+2025-03-13 14:30:33,350 - lsm - ERROR - Failed to update book 11: Failed to update book.
+2025-03-13 14:36:03,017 - lsm - ERROR - Failed to update book with ID 11: Error executing query: column "id" does not exist
+LINE 4:         WHERE id=11
+                      ^
+
+2025-03-13 14:36:03,021 - lsm - ERROR - Failed to update book with ID 11: Failed to update book.
+2025-03-13 14:36:03,023 - lsm - ERROR - Failed to update book 11: Failed to update book.
+2025-03-13 14:36:07,475 - lsm - ERROR - Failed to update book with ID 11: Error executing query: connection already closed
+2025-03-13 14:36:07,477 - lsm - ERROR - Failed to update book with ID 11: Failed to update book.
+2025-03-13 14:36:07,478 - lsm - ERROR - Failed to update book 11: Failed to update book.
+2025-03-13 14:36:18,909 - lsm - ERROR - Failed to delete book with ID 11: Error executing query: connection already closed
+2025-03-13 14:36:18,911 - lsm - ERROR - Failed to delete book with ID 11: Failed to delete book.
+2025-03-13 14:36:18,912 - lsm - ERROR - Failed to delete book 11: Failed to delete book.
+2025-03-13 14:40:17,743 - lsm - ERROR - Failed to fetch loans: Error fetching results: relation "loans" does not exist
+LINE 2:         SELECT * FROM loans
+                              ^
+
+2025-03-13 14:40:20,943 - lsm - ERROR - Failed to fetch publishers: Error fetching results: connection already closed
+2025-03-13 14:40:24,546 - lsm - ERROR - Failed to fetch publishers: Error fetching results: connection already closed
+2025-03-13 14:40:34,623 - lsm - ERROR - Failed to fetch publishers: Error fetching results: connection already closed
+2025-03-13 14:40:35,431 - lsm - ERROR - Failed to fetch publishers: Error fetching results: connection already closed
+2025-03-13 14:40:36,391 - lsm - ERROR - Failed to fetch publishers: Error fetching results: connection already closed
+2025-03-13 14:52:08,918 - lsm - ERROR - Failed to delete book 11: 'BookController' object has no attribute 'delete_book_by_id'
+2025-03-13 14:52:24,246 - lsm - ERROR - Failed to update book with ID 11: Error executing query: column "id" does not exist
+LINE 4:         WHERE id=11
+                      ^
+
+2025-03-13 14:52:24,253 - lsm - ERROR - Failed to update book with ID 11: Failed to update book.
+2025-03-13 14:52:24,254 - lsm - ERROR - Failed to update book 11: Failed to update book.
+2025-03-13 14:52:39,067 - lsm - ERROR - Failed to update book with ID 11: Error executing query: connection already closed
+2025-03-13 14:52:39,070 - lsm - ERROR - Failed to update book with ID 11: Failed to update book.
+2025-03-13 14:52:39,072 - lsm - ERROR - Failed to update book 11: Failed to update book.
+2025-03-13 14:52:42,204 - lsm - ERROR - Failed to update book with ID 11: Error executing query: connection already closed
+2025-03-13 14:52:42,207 - lsm - ERROR - Failed to update book with ID 11: Failed to update book.
+2025-03-13 14:52:42,210 - lsm - ERROR - Failed to update book 11: Failed to update book.
+2025-03-13 14:54:10,631 - lsm - ERROR - Failed to delete book 11: 'BookController' object has no attribute 'delete_book_by_id'
+2025-03-13 14:54:17,401 - lsm - ERROR - Failed to fetch all books: Error fetching results: connection already closed
+2025-03-13 14:54:53,158 - lsm - ERROR - Failed to delete book 11: 'BookController' object has no attribute 'delete_book_by_id'
+2025-03-13 14:55:45,462 - lsm - ERROR - Failed to delete book 11: 'BookController' object has no attribute 'delete_book_by_id'
+2025-03-13 14:56:29,993 - lsm - ERROR - Failed to delete book with ID 11: Error executing query: column "id" does not exist
+LINE 2:         DELETE FROM book WHERE id =11
+                                       ^
+
+2025-03-13 14:56:29,996 - lsm - ERROR - Failed to delete book with ID 11: Failed to delete book.
+2025-03-13 14:56:29,996 - lsm - ERROR - Failed to delete book 11: Failed to delete book.
+2025-03-13 14:58:00,316 - lsm - ERROR - Failed to delete book 11: BookController.delete_by_id() missing 1 required positional argument: 'book_id'
+2025-03-13 14:58:48,215 - lsm - ERROR - Failed to delete book 11: BookController.delete_by_id() missing 1 required positional argument: 'book_id'
+2025-03-13 14:59:14,629 - lsm - ERROR - Failed to delete book with ID 11: Error executing query: column "id" does not exist
+LINE 2:         DELETE FROM book WHERE id =11
+                                       ^
+
+2025-03-13 14:59:14,633 - lsm - ERROR - Failed to delete book with ID 11: Failed to delete book.
+2025-03-13 14:59:14,634 - lsm - ERROR - Failed to delete book 11: Failed to delete book.
+2025-03-13 15:08:54,943 - lsm - ERROR - Failed to fetch members for book 'The Great Gatsby': Error fetching results: relation "members" does not exist
+LINE 3:         FROM members m
+                     ^
+
+2025-03-13 15:08:55,765 - lsm - ERROR - Failed to fetch book 'The Great Gatsby': Error fetching results: connection already closed
+2025-03-13 15:08:55,766 - lsm - WARNING - No book found with title 'The Great Gatsby'.
+2025-03-13 15:09:01,085 - lsm - ERROR - Failed to fetch loans: Error fetching results: connection already closed
+2025-03-13 15:09:02,138 - lsm - ERROR - Failed to fetch loans: Error fetching results: connection already closed
+2025-03-13 15:09:09,801 - lsm - ERROR - Failed to fetch members: Error fetching results: connection already closed
+2025-03-13 15:09:14,118 - lsm - ERROR - Failed to fetch publishers: Error fetching results: connection already closed
+2025-03-13 15:14:56,497 - lsm - WARNING - No book found with title 'The Great Gratsby'.
+2025-03-13 15:15:15,265 - lsm - ERROR - Failed to fetch loans: Error fetching results: relation "loans" does not exist
+LINE 2:         SELECT * FROM loans
+                              ^
+
+2025-03-13 15:15:23,053 - lsm - ERROR - Failed to fetch members: Error fetching results: connection already closed
+2025-03-13 15:15:25,605 - lsm - ERROR - Failed to fetch publishers: Error fetching results: connection already closed
+2025-03-13 15:15:33,473 - lsm - ERROR - Failed to fetch members: Error fetching results: connection already closed
+2025-03-13 15:38:06,991 - lsm - ERROR - Failed to fetch loans: Error fetching results: relation "loans" does not exist
+LINE 2:         SELECT * FROM loans
+                              ^
+
+2025-03-13 15:38:11,360 - lsm - ERROR - Failed to fetch publishers: Error fetching results: connection already closed
+2025-03-13 15:54:52,979 - lsm - ERROR - Failed to update book with ID 11: Error executing query: column "id" does not exist
+LINE 4:         WHERE id=11
+                      ^
+
+2025-03-13 15:54:52,987 - lsm - ERROR - Failed to update book with ID 11: Failed to update book.
+2025-03-13 15:54:52,992 - lsm - ERROR - Failed to update book 11: Failed to update book.
+2025-03-13 15:55:16,303 - lsm - ERROR - Failed to update book with ID 11: Error executing query: connection already closed
+2025-03-13 15:55:16,306 - lsm - ERROR - Failed to update book with ID 11: Failed to update book.
+2025-03-13 15:55:16,309 - lsm - ERROR - Failed to update book 11: Failed to update book.
+2025-03-13 16:10:29,771 - lsm - ERROR - Failed to fetch book 'The Great Gatsby': Error fetching results: column "id" does not exist
+LINE 2:         SELECT id, title, author FROM book WHERE title = 'Th...
+                       ^
+
+2025-03-13 16:10:29,779 - lsm - WARNING - No book found with title 'The Great Gatsby'.
+2025-03-13 16:10:52,322 - lsm - ERROR - Failed to fetch book 'To kill a mockingbird': Error fetching results: connection already closed
+2025-03-13 16:10:52,324 - lsm - WARNING - No book found with title 'To kill a mockingbird'.
+2025-03-13 16:11:06,947 - lsm - ERROR - Failed to fetch book 'Moby-Dick': Error fetching results: connection already closed
+2025-03-13 16:11:06,950 - lsm - WARNING - No book found with title 'Moby-Dick'.
+2025-03-13 16:29:26,110 - lsm - ERROR - Failed to fetch all books: Error fetching results: column "id" does not exist
+LINE 2:         SELECT id, title, author, publisher_id, isbn, year_p...
+                       ^
+
+2025-03-13 16:31:38,841 - lsm - ERROR - Failed to fetch all books: Error fetching results: column "id" does not exist
+LINE 2:         SELECT id, title, author, publisher_id, isbn, year_p...
+                       ^
+
+2025-03-13 16:32:11,914 - lsm - ERROR - Failed to fetch all books: Error fetching results: column "id" does not exist
+LINE 2:         SELECT id, title, author, publisher_id, isbn, year_p...
+                       ^
+
+2025-03-13 16:53:08,365 - lsm - ERROR - Failed to fetch all books: Error fetching results: column "id" does not exist
+LINE 2:         SELECT id, title, author, publisher_id, isbn, year_p...
+                       ^
+
+2025-03-13 17:06:31,396 - lsm - ERROR - Failed to fetch all books: Error fetching results: column "id" does not exist
+LINE 2:         SELECT id, title, author, publisher_id, isbn, year_p...
+                       ^
+
+2025-03-13 17:07:21,438 - lsm - ERROR - Failed to fetch all books: Error fetching results: column "id" does not exist
+LINE 2:         SELECT id, title, author, publisher_id, isbn, year_p...
+                       ^
+
+2025-03-13 17:10:49,762 - lsm - ERROR - Failed to delete book 11: 'BookController' object has no attribute 'delete_book_by_id'
+2025-03-13 17:19:39,492 - lsm - ERROR - Failed to delete book with ID 11: Error executing query: column "id" does not exist
+LINE 2:         DELETE FROM book WHERE id =11
+                                       ^
+
+2025-03-13 17:19:39,494 - lsm - ERROR - Failed to delete book with ID 11: Failed to delete book.
+2025-03-13 17:19:39,495 - lsm - ERROR - Failed to delete book 11: Failed to delete book.
+2025-03-13 17:22:58,636 - lsm - INFO - Book with ID 11 deleted successfully.
+2025-03-13 17:22:58,637 - lsm - INFO - Book with ID 11 deleted successfully.
+2025-03-13 17:23:50,903 - lsm - INFO - Book 'Greg' added successfully.
+2025-03-13 17:23:50,905 - lsm - INFO - Book 'Greg' added successfully.
+2025-03-13 17:24:01,464 - lsm - ERROR - Failed to update book with ID 12: Error executing query: invalid input syntax for type integer: "Penguin"
+LINE 3: ...    SET title='Greg', author='Greg', publisher_id='Penguin',...
+                                                             ^
+
+2025-03-13 17:24:01,471 - lsm - ERROR - Failed to update book with ID 12: Failed to update book.
+2025-03-13 17:24:01,473 - lsm - ERROR - Failed to update book 12: Failed to update book.
+2025-03-13 17:31:17,956 - lsm - ERROR - Failed to update book with ID 12: Error executing query: insert or update on table "book" violates foreign key constraint "book_publisher_id_fkey"
+DETAIL:  Key (publisher_id)=(13) is not present in table "publisher".
+
+2025-03-13 17:31:17,959 - lsm - ERROR - Failed to update book with ID 12: Failed to update book.
+2025-03-13 17:31:17,960 - lsm - ERROR - Failed to update book 12: Failed to update book.
+2025-03-13 17:31:20,581 - lsm - ERROR - Failed to update book with ID 12: Error executing query: connection already closed
+2025-03-13 17:31:20,582 - lsm - ERROR - Failed to update book with ID 12: Failed to update book.
+2025-03-13 17:31:20,583 - lsm - ERROR - Failed to update book 12: Failed to update book.
+2025-03-13 17:31:42,341 - lsm - ERROR - Failed to update book with ID 12: Error executing query: connection already closed
+2025-03-13 17:31:42,345 - lsm - ERROR - Failed to update book with ID 12: Failed to update book.
+2025-03-13 17:31:42,347 - lsm - ERROR - Failed to update book 12: Failed to update book.
+2025-03-13 17:32:08,679 - lsm - ERROR - Failed to delete book with ID 12: Error executing query: connection already closed
+2025-03-13 17:32:08,681 - lsm - ERROR - Failed to delete book with ID 12: Failed to delete book.
+2025-03-13 17:32:08,681 - lsm - ERROR - Failed to delete book 12: Failed to delete book.
+2025-03-13 17:32:25,998 - lsm - INFO - Book with ID 12 deleted successfully.
+2025-03-13 17:32:25,999 - lsm - INFO - Book with ID 12 deleted successfully.
+2025-03-13 17:32:44,537 - lsm - INFO - Book 'Gregg' added successfully.
+2025-03-13 17:32:44,540 - lsm - INFO - Book 'Gregg' added successfully.
+2025-03-13 17:32:52,571 - lsm - ERROR - Failed to update book with ID 13: Error executing query: insert or update on table "book" violates foreign key constraint "book_publisher_id_fkey"
+DETAIL:  Key (publisher_id)=(11) is not present in table "publisher".
+
+2025-03-13 17:32:52,576 - lsm - ERROR - Failed to update book with ID 13: Failed to update book.
+2025-03-13 17:32:52,578 - lsm - ERROR - Failed to update book 13: Failed to update book.
+2025-03-13 17:33:25,983 - lsm - ERROR - Failed to update book with ID 13: Error executing query: connection already closed
+2025-03-13 17:33:25,985 - lsm - ERROR - Failed to update book with ID 13: Failed to update book.
+2025-03-13 17:33:25,985 - lsm - ERROR - Failed to update book 13: Failed to update book.
+2025-03-13 17:40:41,104 - lsm - INFO - Book with ID 13 updated successfully.
+2025-03-13 17:40:41,105 - lsm - INFO - Book with ID 13 updated successfully.
+2025-03-13 17:40:50,155 - lsm - INFO - Book with ID 13 deleted successfully.
+2025-03-13 17:40:50,155 - lsm - INFO - Book with ID 13 deleted successfully.
+2025-03-13 17:41:14,645 - lsm - ERROR - Failed to fetch members: Error fetching results: column "name" does not exist
+LINE 2:         SELECT member_id, name, email FROM member
+                                  ^
+
+2025-03-13 17:42:59,617 - lsm - ERROR - Failed to fetch members: Member.__init__() missing 3 required positional arguments: 'phone', 'address', and 'date_of_membership'
+2025-03-13 17:43:54,512 - lsm - ERROR - Failed to fetch publishers: Publisher.__init__() missing 3 required positional arguments: 'address', 'phone', and 'email'
+2025-03-13 17:44:50,177 - lsm - ERROR - Failed to fetch book 'Moby-Dick': Book.__init__() missing 1 required positional argument: 'year_published'
+2025-03-13 17:44:50,182 - lsm - WARNING - No book found with title 'Moby-Dick'.
+2025-03-13 17:47:00,569 - lsm - ERROR - Failed to fetch members for book 'Moby-Dick': Error fetching results: column member.id does not exist
+LINE 4:         JOIN loan ON member.id = loan.member_id
+                             ^
+
+2025-03-13 17:48:40,325 - lsm - ERROR - Failed to fetch members for book 'Moby-Dick': Error fetching results: column member.id does not exist
+LINE 4:         JOIN loan ON member.id = loan.member_id
+                             ^
+
+2025-03-13 17:49:28,232 - lsm - ERROR - Failed to fetch members for book 'Moby-Dick': Error fetching results: column member.id does not exist
+LINE 4:         JOIN loan ON member.id = loan.member_id
+                             ^
+
+2025-03-13 17:50:42,081 - lsm - ERROR - Failed to fetch members for book 'Moby-Dick': Error fetching results: column member.id does not exist
+LINE 4:         JOIN loan ON member.id = loan.member_id
+                             ^
+
+2025-03-13 18:07:52,460 - lsm - ERROR - Failed to fetch loans: Error fetching results: column member.id does not exist
+LINE 3:         JOIN loan ON member.id = loan.member_id
+                             ^
+
+2025-03-13 18:09:19,850 - lsm - ERROR - Failed to fetch loans: Error fetching results: syntax error at or near "to"
+LINE 4: ... ON member.member_id = loan.member_id  # Adjusted to use mem...
+                                                             ^
+
+2025-03-13 18:13:56,211 - lsm - DEBUG - 'QueryController' object has no attribute 'get_books_by_author_name'
+2025-03-13 18:15:37,064 - lsm - DEBUG - 'QueryController' object has no attribute 'get_books_by_author_name'
+2025-03-13 18:17:04,103 - lsm - DEBUG - 'QueryController' object has no attribute 'get_books_by_author_name'
+2025-03-13 18:45:18,806 - lsm - INFO - Book 'Gergg' added successfully.
+2025-03-13 18:45:18,809 - lsm - INFO - Book 'Gergg' added successfully.
+2025-03-13 18:45:26,146 - lsm - INFO - Book with ID 14 updated successfully.
+2025-03-13 18:45:26,148 - lsm - INFO - Book with ID 14 updated successfully.
+2025-03-13 18:45:33,272 - lsm - INFO - Book with ID 14 deleted successfully.
+2025-03-13 18:45:33,273 - lsm - INFO - Book with ID 14 deleted successfully.
+2025-03-13 18:48:07,549 - lsm - INFO - Book 'Greg' added successfully.
+2025-03-13 18:48:07,552 - lsm - INFO - Book 'Greg' added successfully.
+2025-03-13 18:48:17,650 - lsm - INFO - Book with ID 15 updated successfully.
+2025-03-13 18:48:17,651 - lsm - INFO - Book with ID 15 updated successfully.
+2025-03-13 18:48:23,312 - lsm - INFO - Book with ID 15 deleted successfully.
+2025-03-13 18:48:23,313 - lsm - INFO - Book with ID 15 deleted successfully.
